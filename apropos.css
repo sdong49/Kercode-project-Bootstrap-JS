@@ -1,0 +1,97 @@
+
+body
+{
+	background-color: #e6e7e8;
+}
+#aPropos
+{
+	background-color: #f2f2f2;
+}
+
+#logo_top
+{
+	max-height: 110px;
+	width: auto;	
+}
+
+#navbar li a
+{
+    color:rgb(138, 142, 148);
+    font:bold 1.5em 'Montserrat', sans-serif;
+}
+#navbar li a:hover
+{
+	color: #31b505!important;
+}
+/* SECTION */
+/*#aPropos
+{
+  	background: linear-gradient(rgba(255,255,255,1) 0%, rgba(179,196,205,0.5) 100%); 
+}*/
+.section1
+{
+  	text-align: center;
+  	font-family: Candara, Times, Arial; 	
+}
+.aproposText
+{
+  	font: 1.5em Palatino, Times;
+}
+#secondHeading
+{
+	position: relative;
+	text-align: left;
+}
+/*FOOTER*/
+footer
+{
+	background-color: #575959;
+}
+footer h1
+{
+	font:bold 1em 'Montserrat', sans-serif;
+	color: rgb(230, 233, 240);
+}
+footer ul
+{
+	border-top: 1px solid #B1B6C0;
+	border-bottom: 1px solid #B1B6C0;
+}
+footer ul li a
+{
+	color: rgb(230, 233, 240);
+	font: 0.8em 'Montserrat', sans-serif;
+}
+footer #linksSN li
+{
+	padding: 15px 0;
+}
+footer li a:hover
+{
+	color: #31b505!important;
+}
+#linksSN img
+{
+	height:40px;
+	width: auto;
+}
+@media  all and (max-width: 720px)
+{
+	
+	#navbarSupportedContent li a
+	{
+		font: bold 2vw 'Montserrat', sans-serif;
+		color: 	rgb(138, 142, 148);	
+	}
+}
+
+
+			/* CONTACT US */
+#contactForm
+{
+	width: 500px;
+}
+#mainWrapper
+{
+	margin-top: 10%;
+}

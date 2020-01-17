@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/761d77ec55.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="animate.css-master/animate.min.css">
+        <link rel="stylesheet" href="apropos.css">
+        <link href="https://fonts.googleapis.com/css?family=Revalia|Roboto&display=swap" rel="stylesheet"> 
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    
+    
+        <title>LocaSTAFF</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light d-flex align-items-end mr-5" id="navbar">  
+        <a href="#" class="ml-5"><img src="logos/loca-staffClear.png"  alt="LocaSTAFF logo" class="img-fluid" id="logo_top"></a> 
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">     
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link animated fadeIn" id="btnAccueil" style="animation-delay: 0.2s">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link animated fadeIn" style="animation-delay: 0.4s">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link animated fadeIn" href="#" style="animation-delay: 0.6s">Boutique</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link animated fadeIn" href="#" style="animation-delay: 0.8s">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link animated fadeIn" id="btnContact" style="animation-delay: 1s">Contact</a>
+            </li>
+            <li class="nav-item" id="connectButton">
+                         <!-- Button to Open the Modal -->
+              <a  class="nav-link animated fadeIn" data-toggle="modal" data-target="#loginModal" data-backdrop="false" id="btnConnect" style="animation-delay: 1.2s">
+                         Se connecter</a>  
+                       <div class="modal fade" id="loginModal" tabindex="-1" role="dialog"  aria-hidden="true">
+                         <div class="modal-dialog modal-dialog-centered" role="document">
+                           <div class="modal-content">
+                             <div class="modal-header border-bottom-0">
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                             </div>
+                             <div class="modal-body">
+                               <div class="form-title text-center">
+                                 <h4>Login</h4>
+                               </div>
+                               <div class="d-flex flex-column text-center">
+                                 <form>
+                                   <div class="form-group">
+                                     <input type="email" class="form-control" id="email1"placeholder="Your email address...">
+                                   </div>
+                                   <div class="form-group">
+                                     <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                                   </div>
+                                   <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                                   </form>
+                                             
+                                   <div class="text-center text-muted delimiter">or use a social network</div>
+                                   <div class="d-flex justify-content-around social-buttons" id="modalSNbutttons">
+                                   <button type="button" class="btn btn-secondary btn-round" data-tog    gle="tooltip" data-placement="top" title="Twitter">
+                                     <i class="fab fa-twitter"></i>
+                                   </button>
+                                   <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                     <i class="fab fa-facebook"></i>
+                                   </button>
+                                   <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                                     <i class="fab fa-linkedin"></i>
+                                   </button>
+                               </div>
+                             </div>
+                           </div>
+                           <div class="modal-footer d-flex justify-content-center">
+                           <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
+                         </div>
+                       </div>
+                     </div> 
+                   </li> 
+           </ul> 
+         </div>
+       </nav>
+     </header>
+     <div id="mainWrapper">
+      <section class="sectionGradient animated fadeIn" id="aPropos" style="animation-delay: 1.2s">
+          <div class="container section1 py-3">
+              <h1 class="py-5 my-3 ml-5 ">Qui sommes-nous?</h1>
+              <h2 class="ml-5 pb-3"> Lorem ipsum</h2>
+              <div class="row mb-5">
+                <div class="col-lg-5 col-md-5 col-sm-12 mb-5">
+                  <img src="images/team_small.jpg" class="img-fluid shadow" alt="Our team">
+                </div>
+                <div class="aproposText col-lg-7 col-md-7 col-sm-12 font-italic text-justify pt-2">
+                  <p>  Lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod leo ut interdum eleifend. Curabitur vitae imperdiet arcu, quis vulputate turpis. Fusce ut velit auctor, eleifend arcu a, ullamcorper urna. Suspendisse lorem dui, ultricies quis elit eu, eleifend tincidunt lorem.</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod leo ut interdum eleifend. Curabitur vitae imperdiet arcu, quis vulputate turpis. Fusce ut velit auctor, eleifend arcu a, ullamcorper urna. Suspendisse lorem dui, ultricies quis elit eu, eleifend tincidunt lorem.</p>
+                </div>
+              </div>
+            <h2 id="secondHeading" class="pt-1 pb-3"> Lorem ipsum </h2>
+            <div class="row mb-5">
+              <div class="aproposText col-lg-7 col-md-7 col-sm-12 font-italic text-justify mb-5">
+                <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod leo ut interdum eleifend. Curabitur vitae imperdiet arcu, quis vulputate turpis. Fusce ut velit auctor, eleifend arcu a, ullamcorper urna. Suspendisse lorem dui, ultricies quis elit eu, eleifend tincidunt lorem.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod leo ut interdum eleifend. Curabitur vitae imperdiet arcu, quis vulputate turpis. Fusce ut velit auctor, eleifend arcu a, ullamcorper urna. Suspendisse lorem dui, ultricies quis elit eu, eleifend tincidunt lorem.</p>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-12 mb-5">
+                <img src="images/world_small.jpg" class="img-fluid shadow" alt="Our team">
+              </div>
+            </div>
+            <h2 class="pt-1 pb-3"> Lorem ipsum </h2>
+            <div class="row mb-5">
+              <div class="col-lg-5 col-md-5 col-sm-12">
+                <img src="images/team1_small.jpg" class="img-fluid shadow" alt="Our team">
+              </div>
+              <div class="aproposText col-lg-7 col-md-7 col-sm-12 font-italic text-justify mb-5">
+                <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod leo ut interdum eleifend. Curabitur vitae imperdiet arcu, quis vulputate turpis. Fusce ut velit auctor, eleifend arcu a, ullamcorper urna. Suspendisse lorem dui, ultricies quis elit eu, eleifend tincidunt lorem.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod leo ut interdum eleifend. Curabitur vitae imperdiet arcu, quis vulputate turpis. Fusce ut velit auctor, eleifend arcu a, ullamcorper urna. Suspendisse lorem dui, ultricies quis elit eu, eleifend tincidunt lorem.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="container py-3" id="footer">
+          <div class="row pb-2">
+            <div class="col-lg-2">
+              <h1 class="pl-1">DES QUESTIONS ?</h1>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link px-0 py-1" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0 py-1" href="#">Forum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-0 py-1" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <h1 class="pl-1">INFORMATION LEGALES</h1>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link px-0 py-1" href="#">Conditions générales d’utilisation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-0 py-1" href="#">Conditions Générales de Vente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-0 py-1" href="#">Données personnelles</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <h1 class="pl-1">RETROUVEZ-NOUS SUR:</h1>
+            <ul class="nav d-flex justify-content-between pr-5" id="linksSN">
+              <li class="nav-item">
+                <a href="https://fr.linkedin.com"  target="blank" class="linkedinIcon"><img src="pictos/linkedin.png" alt="Link to Linkedin page"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://facebook.com"  target="blank" class="facebookIcon"><img src="pictos/facebook.png" alt="Link to Facebook page"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://twitter.com"  target="blank" class="twitterIcon"><img src="pictos/twitter.png" alt="Link to Twitter page"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </footer>
+  	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/links.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>    

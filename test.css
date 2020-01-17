@@ -1,0 +1,133 @@
+body
+{
+	background-color: #f2f2f2;
+}
+#logo_top
+{
+	max-height: 150px;
+	width: auto;	
+}
+/* header*/
+header div
+{
+	position: relative;
+	top: 1%;
+}
+header a
+{
+	color: white;
+	font: bold 2vw 'Montserrat', sans-serif;
+}
+#imageWrapper img
+{
+	width:100vw;
+	max-height:100%;
+}
+#navbarSupportedContent a
+{
+	color: rgb(138, 142, 148);
+	font: bold 1.2vw 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+#navbarSupportedContent a:hover
+{
+	color: #31b505!important;
+}
+#btnAccueil
+{
+	position: absolute;
+	top:9%;
+	left: 28%;
+}
+#btnApropos
+{
+	color: rgb(138, 142, 148);
+	position: absolute;
+	top: 22%;
+	left:43%;
+} 
+#btnBlog
+{
+	color: rgb(138, 142, 148);
+	position: absolute;
+	top: 62%;
+	left:76%;
+}
+#btnBoutique
+{
+	color: rgb(138, 142, 148);
+	position: absolute;
+	top: 7%;
+	left:58%;
+}
+#btnContact
+{
+	font-size: 1.7vw;
+	color: rgb(138, 142, 148);
+	position: absolute;
+	top: 69%;
+	left:51%;
+}
+#btnLocSer
+{
+	position: absolute;
+	top: 37%;
+	left:46%;
+}
+#btnServices, #btnLocation
+{
+	
+	color:#fff;
+	font: bold 1.6vw 'Montserrat', sans-serif;
+}
+#btnLocSer a:hover
+{
+	background-color: #3d85cf;
+	color: #fff!important;	
+}
+header a:hover
+{
+	color: #31b505!important;
+}
+#connectButton a
+{
+	cursor: pointer;
+}
+/* FOOTER */
+
+@media  all and (max-width: 1220px)
+{
+	#btnServices, #btnLocation
+	{
+		display: initial!important;
+		font: bold 2.5vw 'Montserrat', sans-serif;
+	}
+	#btnLocSer
+	{
+		position: absolute;
+		top: 99%;
+		left: 30%;
+		margin-top: 5px;
+	}
+}
+@media  all and (max-width: 720px)
+{
+	#imageWrapper a
+	{
+		display: none;
+	}
+	#navbarSupportedContent li a
+	{
+		font: bold 2vw 'Montserrat', sans-serif;
+		color: 	rgb(138, 142, 148);	
+	}
+}
+@media  all and (min-width: 720px)
+{
+	#navbarSupportedContent li:nth-child(-n+5)
+	{
+		display: none;
+		font: bold 2vw 'Montserrat', sans-serif;
+		color: rgb(138, 142, 148);		
+	}	
+}
